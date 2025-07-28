@@ -1,12 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
-
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-left: 141px;
+  margin-right: 141px; */
+}
 ul,
 ol {
   list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
 }
 
 a {
@@ -78,6 +91,19 @@ a {
 .effective-button:hover,
 .effective-button:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset (100%);
+  clip: rect (0 0 0 0);
+  overflow: hidden;
 }
 
 .strategies-title-thrid {
