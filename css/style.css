@@ -8,12 +8,17 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  /* margin-left: 141px;
-  margin-right: 141px; */
+  margin: 0 auto;
 }
 ul,
 ol {
@@ -26,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+.page-header {
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -39,7 +48,14 @@ a {
 .logo-part {
   color: #2e2f42;
 }
-
+.header-nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
+}
 .nav-list-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -51,6 +67,11 @@ a {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-list-item-link {
@@ -67,6 +88,7 @@ a {
   color: #404bbf;
 }
 
+/* effective silotions */
 .effective {
   background-color: #2e2f42;
 }
@@ -78,6 +100,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding: 188px 0 48px 0;
 }
 .effective-button {
   font-weight: 500;
@@ -87,10 +110,17 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  padding: 16px 32px;
+  margin: 0 auto;
 }
 .effective-button:hover,
 .effective-button:focus {
   background-color: #404bbf;
+}
+
+.button-wrapper {
+  padding-bottom: 188px;
 }
 
 .visually-hidden {
@@ -106,12 +136,22 @@ a {
   overflow: hidden;
 }
 
+.strategies {
+  margin: 120px auto;
+}
+.strategies-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 120px auto;
+}
 .strategies-title-thrid {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .strategies-text {
@@ -134,9 +174,15 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  padding: 120px 0 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-list-item {
   background-color: #fff;
+  margin-bottom: 120px;
 }
 .team-list-title {
   font-weight: 500;
@@ -144,6 +190,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  padding: 32px 0 8px;
 }
 
 .team-list-text {
@@ -153,6 +200,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .portfolio-title {
@@ -163,14 +211,25 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 120px 0 72px;
 }
-
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-list-up {
+  width: 360px;
+  border: 1px solid #121212;
+  flex: 0 0 calc((100% - 48px) / 3);
+}
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 32px 0 8px 16px;
 }
 
 .portfolio-list-text {
@@ -178,6 +237,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 0 0 32px 16px;
 }
 
 .page-footer {
