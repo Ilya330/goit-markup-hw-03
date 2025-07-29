@@ -21,7 +21,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 24px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 ul,
 ol {
@@ -35,6 +36,8 @@ a {
 }
 
 .page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   border: 1px solid #e7e9fc;
 }
 
