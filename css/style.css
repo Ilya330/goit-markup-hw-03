@@ -23,7 +23,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
 }
 ul,
 ol {
@@ -57,12 +56,9 @@ a {
   align-items: center;
   padding: 24px 0;
 }
-
-.logo-top {
-  margin-right: 76px;
-}
 .nav-list {
   display: flex;
+  margin-left: 76px;
   gap: 40px;
 }
 .nav-list-link {
