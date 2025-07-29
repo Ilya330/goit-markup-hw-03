@@ -70,13 +70,12 @@ a {
   color: #2e2f42;
 }
 
-.address {
+.page-address {
   font-style: normal;
   margin-left: auto;
 }
 .address-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
