@@ -41,8 +41,6 @@ a {
 
 .page-header-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -61,6 +59,8 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-list {
   display: flex;
@@ -78,6 +78,8 @@ a {
 .page-address {
   font-style: normal;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-list {
   display: flex;
