@@ -20,9 +20,9 @@ img {
 }
 .container {
   width: 1158px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
 ul,
 ol {
@@ -40,8 +40,7 @@ a {
 }
 
 .page-header-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 15px;
   display: flex;
 }
 .logo {
