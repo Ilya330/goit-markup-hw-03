@@ -56,9 +56,12 @@ a {
   display: flex;
   align-items: center;
 }
+
+.logo-top {
+  margin-right: 76px;
+}
 .nav-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 .nav-list-link {
