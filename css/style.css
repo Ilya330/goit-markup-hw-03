@@ -96,6 +96,7 @@ a {
 /* effective silotions */
 .effective {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .effective-title {
@@ -105,7 +106,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding: 188px 0 48px 0;
+  padding-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .effective-button {
   font-weight: 500;
@@ -116,16 +119,16 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
-  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
   margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 .effective-button:hover,
 .effective-button:focus {
   background-color: #404bbf;
-}
-
-.button-wrapper {
-  padding-bottom: 188px;
 }
 
 .visually-hidden {
@@ -142,13 +145,13 @@ a {
 }
 
 .strategies {
-  margin: 120px auto;
+  padding: 120px 0;
 }
 .strategies-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding: 120px auto;
+  width: calc((100% – 72px) / 4);
 }
 .strategies-title-thrid {
   font-weight: 500;
@@ -170,6 +173,7 @@ a {
 .team {
   background: #f4f4fd;
   color: #2e2f42;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -179,7 +183,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding: 120px 0 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -187,7 +191,7 @@ a {
 }
 .team-list-item {
   background-color: #fff;
-  margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-title {
   font-weight: 500;
@@ -195,9 +199,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 32px 0 8px;
+  margin-bottom: 8px;
 }
-
+.workers {
+  padding: 32px 0;
+}
 .team-list-text {
   font-weight: 400;
   font-size: 16px;
@@ -205,7 +211,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 .portfolio {
   padding: 120px 0;
