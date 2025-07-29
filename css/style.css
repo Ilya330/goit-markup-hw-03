@@ -64,10 +64,7 @@ a {
   display: flex;
   gap: 40px;
 }
-.nav-list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .nav-list-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -75,6 +72,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-address {
@@ -92,6 +92,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list-link:hover,
