@@ -37,7 +37,6 @@ a {
 }
 
 .page-header {
-  padding: 24px 0;
   border: 1px solid #e7e9fc;
 }
 .logo {
@@ -56,6 +55,7 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo-top {
