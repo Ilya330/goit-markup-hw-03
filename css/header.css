@@ -1,0 +1,52 @@
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.page-address {
+  font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list-item-link {
+  display: block;
+  padding: 24px 0;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+  color: #404bbf;
+}
