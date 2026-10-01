@@ -5,13 +5,10 @@
 .page-header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-  gap: 76px;
+.logo-top {
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -31,6 +28,7 @@
 }
 
 .page-address {
+  margin-left: auto;
   font-style: normal;
 }
 
